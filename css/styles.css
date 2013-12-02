@@ -1,0 +1,78 @@
+/* Stylesheet */
+.container{
+	max-width:95%;
+	background:#ccc;
+	width:95%;
+	margin:0 auto;
+	}
+	
+nav{
+	background:#CC3;
+	width:100%;}
+	
+article{
+	background:#0CC;
+	width:66.67%;
+	float:left;
+}
+
+aside{
+	background:#CC3;
+	float:left;
+	width:33.33%;
+	}
+	
+footer{clear:both;
+	background:#99C;
+	width:100%;}
+	
+	
+	/* Typography */
+	
+h1{
+	font-size:3em; /* 48/16=3em */
+	}
+h2{
+	font-size:2.25em;} /* 36px/16px= 2.25em */
+	
+h3{font-size:1.5em;} /* 24/16= 1.5 em */
+
+p{
+	font-size:1.25em;/* 20px/16px= 1.25em*/
+	line-height:1.25em} 
+
+/*all links*/
+
+a{
+	color:#FFF;
+	font-size:1.25em;
+	}
+	
+footer a{
+	font-size:1em;}
+	
+/*DeskTop*/
+
+@media screen and (max-width:1024px) {
+	
+	body{background:red;}
+	
+	} /* End of Desktop*/
+
+@media screen and (max-width:768px) {
+	
+	body{background:blue;}
+	
+	} /* End of tablet*/
+
+@media screen and (max-width:480px) {
+	
+	body{background:green;}
+	aside{float:none;
+	}
+	
+	} /* End of phone*/
+
+
+
+
